@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Accessibility Tester</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: #fff;
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
+        }
+        h1, h2 {
+            color: #ffcc00;
+        }
+        a {
+            color: #ffcc00;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        a:hover, a:focus {
+            color: #ffffff;
+            outline: 2px solid #ffcc00;
+        }
+        .section {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            list-style: none;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Software Engineer | Accessibility Tester | Section 508 Trusted Tester</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Experienced Accessibility Tester with expertise in Section 508 compliance, WCAG standards, and accessibility tools like JAWS, NVDA, and VoiceOver.</p>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>Accessibility Testing (Section 508, WCAG)</li>
+                <li>Tools: AXE, JAWS, NVDA, Narrator, VoiceOver, TalkBack</li>
+                <li>Defect Tracking: Azure DevOps, GitHub</li>
+                <li>Web Technologies: HTML, CSS, ARIA</li>
+            </ul>
+        </section>
+
+        <section id="experience" class="section">
+            <h2>Work Experience</h2>
+            <h3>HCL Technologies - Software Engineer</h3>
+            <p>October 2021 - Present</p>
+            <ul>
+                <li>Tested and ensured accessibility compliance for enterprise applications.</li>
+                <li>Trained 50+ team members on Voice Access.</li>
+                <li>Recognized as Knowledge Champ for accessibility expertise.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+    </footer>
+</body>
+</html>
